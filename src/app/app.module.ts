@@ -14,7 +14,7 @@ import {ProductService} from '../app/product.service'
     AppComponent,
     ProductPageComponent,
     ProductDescriptionComponent,
-    ProductService
+    
     
   ],
   imports: [
@@ -22,7 +22,7 @@ import {ProductService} from '../app/product.service'
     FormsModule,
     HttpModule
   ],
-  providers: [],
+  providers: [ProductService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
